@@ -1,0 +1,22 @@
+.App {
+    text-align: center;
+  }
+.mainPage{
+  background-color: #003087;
+  opacity: 0.5;
+  color: white;
+}
+.mainDiv{
+  width: 100%;
+  height: 100%px;
+  background: gray
+}
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
