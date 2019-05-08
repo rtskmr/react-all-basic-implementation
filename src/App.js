@@ -4,6 +4,8 @@ import Todo from './components/todo'
 import IncrementDecrement from './components/increment-decrement'
 import WatchTimer from './components/watchTimer'
 import Divider from './components/divider'
+import ReactRouterExampleExample from './components/react-router-example'
+import ReactFormExample from './components/react-form-example'
 import './App.css';
 
 class App extends Component {
@@ -26,7 +28,12 @@ class App extends Component {
               <Divider />
             </div>
             <div className="taskSectionThree">
-              <IncrementDecrement />
+              <ReactRouterExampleExample />
+              <hr />
+            </div>
+            <div className="taskSectionThree">
+              <ReactFormExample />
+              <hr />
             </div>
           </div>
         </p>
